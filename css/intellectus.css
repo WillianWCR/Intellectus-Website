@@ -1,0 +1,18 @@
+.nav-brand{
+    max-width: 200px;
+}
+
+.speakers-grid{
+    flex-wrap: wrap;
+    display: flex;
+    width: auto;
+}
+
+.bepartner{
+
+}
+
+.bepartner h5{
+    color: white;
+    margin: 50px 0 25px 0;
+}
