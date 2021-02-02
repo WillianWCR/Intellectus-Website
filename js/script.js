@@ -9,7 +9,7 @@ for(let i = 0; i < palestras.length; i++){
 }
 
 const getProfessorById = (id) => {
-    return professores.find(professor => professor.id == 1);
+    return professores.find(professor => professor.id == id);
 }
 
 const SpeakersGrid = () => {

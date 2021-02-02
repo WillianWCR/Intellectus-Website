@@ -1,57 +1,64 @@
 var parceiros = [
     {
         id: 1,
-        name: "Nome do parceiro",
-        site: "https://www.google.com.br/",
-        logo: "./img/core-img/p-1.png"
+        name: "Classico",
+        site: "http://www.classico.com.br/",
+        logo: "./img/patrocinadores/Patrocinadores_Classico.png"
     },
 
     {
         id: 2,
-        name: "Nome do parceiro",
-        site: "https://www.google.com.br/",
-        logo: "./img/core-img/p-1.png"
+        name: "Dental Cremer",
+        site: "https://laboratorio.dentalcremer.com.br/",
+        logo: "./img/patrocinadores/Patrocinadores_Dental-Cremer.png"
     },
 
     {
         id: 3,
-        name: "Nome do parceiro",
-        site: "https://www.google.com.br/",
-        logo: "./img/core-img/p-1.png"
+        name: "Eunice",
+        site: "http://www.eunicesolucoes.com.br/",
+        logo: "./img/patrocinadores/Patrocinadores_Eunice.png"
     },
 
     {
         id: 4,
-        name: "Nome do parceiro",
-        site: "https://www.google.com.br/",
-        logo: "./img/core-img/p-1.png"
+        name: "Formaden",
+        site: "https://www.formaden.com.br/",
+        logo: "./img/patrocinadores/Patrocinadores_Formaden.png"
     },
 
     {
         id: 5,
-        name: "Nome do parceiro",
-        site: "https://www.google.com.br/",
-        logo: "./img/core-img/p-1.png"
+        name: "GC",
+        site: "http://gclatinamerica.com/",
+        logo: "./img/patrocinadores/Patrocinadores_GC.png"
     },
 
     {
         id: 6,
-        name: "Nome do parceiro",
-        site: "https://www.google.com.br/",
-        logo: "./img/core-img/p-1.png"
+        name: "Ivoclar",
+        site: "https://www.ivoclarvivadent.com.br/",
+        logo: "./img/patrocinadores/Patrocinadores_Ivoclar.png"
     },
 
     {
         id: 7,
-        name: "Nome do parceiro",
-        site: "https://www.google.com.br/",
-        logo: "./img/core-img/p-1.png"
+        name: "JP Cursos",
+        site: "https://www.instagram.com/jpcursos/",
+        logo: "./img/patrocinadores/Patrocinadores_JP-CURSOS.png"
     },
 
     {
         id: 8,
-        name: "Nome do parceiro",
-        site: "https://www.google.com.br/",
-        logo: "./img/core-img/p-1.png"
+        name: "Kota",
+        site: "https://www.kotaimp.com/",
+        logo: "./img/patrocinadores/Patrocinadores_KOTA.png"
+    },
+
+    {
+        id: 9,
+        name: "UNIFAES",
+        site: "http://www.unifaes.com.br/",
+        logo: "./img/patrocinadores/Patrocinadores_UNIFAES.png"
     },
 ]
