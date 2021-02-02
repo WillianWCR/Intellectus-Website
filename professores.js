@@ -2,7 +2,7 @@ var professores = [
     {
         id: 1,
         name: "Darlos Soares",
-        career: "Dentista",
+        career: "Técnico em Prótese Dentária",
         photo: "./img/professores/500x/500x_Darlos-Soares.png",
         thumbnail: "./img/professores/100x/100x_Darlos-Soares.jpg"
     },
@@ -10,7 +10,7 @@ var professores = [
     {
         id: 2,
         name: "Angelo Rossett Junior",
-        career: "Dentista",
+        career: "Técnico em Prótese Dentária",
         photo: "./img/professores/500x/500x_Angelo-Rossetti-Jr.png",
         thumbnail: "./img/professores/100x/100x_Angelo-Rossetti-Jr.jpg"
     },
@@ -18,7 +18,7 @@ var professores = [
     {
         id: 3,
         name: "Walter Alborghetti",
-        career: "Dentista",
+        career: "Cirurgião Dentista",
         photo: "./img/professores/500x/500x_Walter-Alborghetti.png",
         thumbnail: "./img/professores/100x/100x_Walter-Alborghetti.jpg"
     },
@@ -26,7 +26,7 @@ var professores = [
     {
         id: 4,
         name: "Sabrine Henn",
-        career: "Dentista",
+        career: "Técnica em Prótese Dentária",
         photo: "./img/professores/500x/500x_Sabrine-Henn.png",
         thumbnail: "./img/professores/100x/100x_Sabrine-Henn.jpg"
     },
@@ -34,7 +34,7 @@ var professores = [
     {
         id: 5,
         name: "David Morita",
-        career: "Dentista",
+        career: "Técnico em Prótese Dentária",
         photo: "./img/professores/500x/500x_David-Morita.png",
         thumbnail: "./img/professores/100x/100x_David-Morita.jpg"
     },
@@ -42,7 +42,7 @@ var professores = [
     {
         id: 6,
         name: "Ivan Yoshio",
-        career: "Dentista",
+        career: "Cirurgião Dentista ",
         photo: "./img/professores/500x/500x_Ivan-Yoshio.png",
         thumbnail: "./img/professores/100x/100x_Ivan-Yoshio.jpg"
     },
@@ -50,7 +50,7 @@ var professores = [
     {
         id: 7,
         name: "Rodrigo Monsano",
-        career: "Dentista",
+        career: "Técnico em Prótese Dentária",
         photo: "./img/professores/500x/500x_Rodrigo-Monsano.png",
         thumbnail: "./img/professores/100x/100x_Rodrigo-Monsano.jpg"
     },
@@ -58,7 +58,7 @@ var professores = [
     {
         id: 8,
         name: "Daniel Morita",
-        career: "Dentista",
+        career: "Técnico em Prótese Dentária",
         photo: "./img/professores/500x/500x_Daniel-Morita.png",
         thumbnail: "./img/professores/100x/100x_Daniel-Morita.jpg"
     },
@@ -66,7 +66,7 @@ var professores = [
     {
         id: 9,
         name: "Priscila Rizzi",
-        career: "Dentista",
+        career: "Cirurgiã Dentista",
         photo: "./img/professores/500x/500x_Priscila-Rizzi.png",
         thumbnail: "./img/professores/100x/100x_Priscila-Rizzi.jpg"
     },
@@ -74,7 +74,7 @@ var professores = [
     {
         id: 10,
         name: "Rafael Sircoski",
-        career: "Dentista",
+        career: "Eng Mecânico",
         photo: "./img/professores/500x/500x_Rafael-Sircoski.png",
         thumbnail: "./img/professores/100x/100x_Rafael-Sircoski.jpg"
     },
@@ -82,7 +82,7 @@ var professores = [
     {
         id: 11,
         name: "Thais Nogueira",
-        career: "Dentista",
+        career: "Cirurgiã Dentista",
         photo: "./img/professores/500x/500x_Thais-Nogueira.png",
         thumbnail: "./img/professores/100x/100x_Thais-Nogueira.jpg"
     },
@@ -90,7 +90,7 @@ var professores = [
     {
         id: 12,
         name: "Marcos Celestrino",
-        career: "Dentista",
+        career: "Cirurgião Dentista",
         photo: "./img/professores/500x/500x_Marcos-Celestiano.png",
         thumbnail: "./img/professores/100x/100x_Marcos-Celestiano.jpg"
     },
@@ -98,7 +98,7 @@ var professores = [
     {
         id: 13,
         name: "Carla de Castro",
-        career: "Dentista",
+        career: "Cirurgiã Dentista",
         photo: "./img/professores/500x/500x_Carla-de-Castro.png",
         thumbnail: "./img/professores/100x/100x_Carla-de-Castro.jpg"
     },
@@ -106,7 +106,7 @@ var professores = [
     {
         id: 14,
         name: "Paulo Kano",
-        career: "Dentista",
+        career: "Cirurgião Dentista",
         photo: "./img/professores/500x/500x_Paulo-Kano.png",
         thumbnail: "./img/professores/100x/100x_Paulo-Kano.jpg"
     },
@@ -114,7 +114,7 @@ var professores = [
     {
         id: 15,
         name: "Carlos Maranghello",
-        career: "Dentista",
+        career: "Técnico em Prótese Dentária",
         photo: "./img/professores/500x/500x_Carlos-Maranguello.png",
         thumbnail: "./img/professores/100x/100x_Carlos-Maranguello.jpg"
     },
@@ -122,7 +122,7 @@ var professores = [
     {
         id: 16,
         name: "Johnson C. Fonseca",
-        career: "Dentista",
+        career: "Cirurgião Dentista",
         photo: "./img/professores/500x/500x_Johnson-Fonseca.png",
         thumbnail: "./img/professores/100x/100x_Johnson-Fonseca.jpg"
     },
@@ -130,7 +130,7 @@ var professores = [
     {
         id: 17,
         name: "Ana Lidia Ferreira",
-        career: "Dentista",
+        career: "Cirurgiã Dentista",
         photo: "./img/professores/500x/500x_Ana-Lidia-Ferreira.png",
         thumbnail: "./img/professores/100x/100x_Ana-Lidia-Ferreira.jpg"
     },
@@ -138,7 +138,7 @@ var professores = [
     {
         id: 18,
         name: "Fernando Feitosa",
-        career: "Dentista",
+        career: "Cirurgião Dentista",
         photo: "./img/professores/500x/500x_Fernando-Feitosa.png",
         thumbnail: "./img/professores/100x/100x_Fernando-Feitosa.jpg"
     },
@@ -146,7 +146,7 @@ var professores = [
     {
         id: 19,
         name: "Juliana Gonçalves",
-        career: "Dentista",
+        career: "Técnica em Prótese Dentária",
         photo: "./img/professores/500x/500x_Juliana-Goncalves.png",
         thumbnail: "./img/professores/100x/100x_Juliana-Goncalves.jpg"
     },
@@ -154,7 +154,7 @@ var professores = [
     {
         id: 20,
         name: "Thiago Kempen",
-        career: "Dentista",
+        career: "Empresário e Consultor Neodent",
         photo: "./img/professores/500x/500x_Thiago-Kempen.png",
         thumbnail: "./img/professores/100x/100x_Thiago-Kempen.jpg"
     },
@@ -162,7 +162,7 @@ var professores = [
     {
         id: 21,
         name: "Marcos Kogut",
-        career: "Dentista",
+        career: "Empresário",
         photo: "./img/professores/500x/500x_Marcos-Kogut.png",
         thumbnail: "./img/professores/100x/100x_Marcos-Kogut.jpg"
     },
@@ -170,7 +170,7 @@ var professores = [
     {
         id: 22,
         name: "Hilton Riquieri",
-        career: "Dentista",
+        career: "Cirurgião Dentista",
         photo: "./img/professores/500x/500x_Hilton-Riquieri.png",
         thumbnail: "./img/professores/100x/100x_Hilton-Riquieri.jpg"
     },
