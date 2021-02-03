@@ -1647,10 +1647,12 @@ input:required {
     margin-bottom: 10px;
 }
 .single-speaker-area .speaker-info p {
-    color: #961B81;
+    color: #ffffff;
     margin-bottom: 0;
     letter-spacing: 1px;
     line-height: 1;
+    opacity: 0.5;
+    font-size: 14px;
 }
 .single-speaker-area:hover .social-info,
 .single-speaker-area:focus .social-info {
