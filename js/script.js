@@ -12,6 +12,10 @@ const getProfessorById = (id) => {
     return professores.find(professor => professor.id == id);
 }
 
+const markdownText = (text) => {
+    return marked(text);
+}
+
 const SpeakersGrid = () => {
     return(
         professores.map(speaker => (
@@ -82,7 +86,8 @@ const CronogramaItem = (props) => {
                 <p><i className="zmdi zmdi-time"></i> {props.data.time}</p>
                 <p><i className="zmdi zmdi-hourglass-alt"></i> 1 hora</p>
             </div>
-            <a href={"./palestra/"+props.data.id} className="btn confer-btn">Ver mais <i className="zmdi zmdi-long-arrow-right"></i></a>
+            <a href={"#palestraModal"+props.data.id} rel="modal:open" className="btn confer-btn">Ver mais <i className="zmdi zmdi-long-arrow-right"></i></a>
+            <PalestraModal data={props.data} />
         </div>
     )
 }
@@ -97,6 +102,51 @@ const CronogramaDia = (props) => {
                     ))}
                 </div>
             </div>
+        </div>
+    );
+}
+
+const PalestraModal = (props) => {
+    let modalStyle = {
+        display: "none",
+        height: "auto"
+    };
+
+    function getMarkdownText(){
+        if(props.data.about !== undefined){
+            return {
+                __html: markdownText(props.data.about)
+            };
+        }else{
+            return {
+                __html: "<p>Nenhum conteúdo.</p>"
+            };
+        }
+    }
+
+    function getSpeakersName(){
+        if(props.data.speakers !== undefined){
+            if(props.data.speakers.length > 1){
+                var speakersName = [];
+                props.data.speakers.map(speaker => {
+                    speaker = getProfessorById(speaker);
+                    speakersName.push(speaker.name);
+                });
+                return <p>por <span>{speakersName.join(' e ')}</span></p>;
+            }
+            return props.data.speakers.map(speaker => {
+                    speaker = getProfessorById(speaker);
+                    return <span key={speaker.id}>{speaker.name}</span>;
+            });
+        }
+    }
+
+    return(
+        <div id={"palestraModal"+props.data.id} className="modal palestraModal" style={modalStyle} key={props.data.id}>
+            <p className="title">{props.data.name}</p>
+            <p className="speaker">por {getSpeakersName()}</p>
+            <hr/>
+            <p className="about" dangerouslySetInnerHTML={getMarkdownText()}></p>
         </div>
     );
 }
