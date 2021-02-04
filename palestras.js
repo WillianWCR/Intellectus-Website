@@ -144,7 +144,7 @@ var palestras = [
 
 
     {
-        id: 9,
+        id: 17,
         name: "Metalurgia: Abandone as Falhas, Use a Ciência e Seja Phoda",
         time: "9:00 - 10:00",
         day: "3",
@@ -156,27 +156,32 @@ var palestras = [
         `
     },
     {
-        id: 10,
+        id: 18,
         name: "Detalhes Que Fazem a Diferença na Anatomia e Escultura Dental",
         time: "10:15 - 11:15",
         day: "3",
         speakers: [17]
     },
     {
-        id: 11,
+        id: 19,
         name: "Planejamento de Protocolo em Resina Previsibilidade de Resultados",
         time: "11:30 - 12:30",
         day: "3",
-        speakers: [23]
+        speakers: [23],
+        about: `O tema proposto por Erika Leite, está ligado ao planejamento dos casos protéticos antes da execução em si. Ao longo dos anos, a integração com os cirurgiões dentistas, resultou em um protocolo de trabalho que visa melhorar resultados e criar soluções em conjunto para o sucesso do trabalho .
+- Planejar e só depois executar, a chave para maior previsibilidade e soluções individualizadas aos casos de protocolo em resina.
+- Integrar o cirurgião dentista ao técnico e vise versa, trás aprendizado mútuo e fluidez na sequência de trabalho, o resultado final dos casos depende desta integração.
+- O técnico em prótese dentária necessita ter conhecimento básico da execução clínica, para poder auxiliar seus parceiros dentistas em casos complexos e propor soluções.
+        `
     },
     {
-        id: 12,
+        id: 20,
         name: "Intervalo",
         time: "12:30 - 13:45",
         day: "3",
     },
     {
-        id: 13,
+        id: 21,
         name: "Detalhes Anatômicos e Adaptação das Peças Protéticas x Fluxo Digital. A Realidade Clínica.",
         time: "13:45 - 14:45",
         day: "3",
@@ -189,7 +194,7 @@ var palestras = [
         `
     },
     {
-        id: 14,
+        id: 22,
         name: "Técnica de Estratificação de Resinas Indiretas (Demonstrativo)",
         time: "15:00 - 16:00",
         day: "3",
@@ -200,14 +205,14 @@ Falaremos durante a demonstração ao vivo sobre equipamentos de foto polimeriza
         `
     },
     {
-        id: 15,
+        id: 23,
         name: "Gestão Inovadora para Laboratórios de Prótese",
         time: "16:15 - 17:15",
         day: "3",
         speakers: [20, 21]
     },
     {
-        id: 16,
+        id: 24,
         name: "Anatomia Funcional: Oclusão por Meio de Técnicas de Enceramento",
         time: "17:30 - 18:30",
         day: "3",
