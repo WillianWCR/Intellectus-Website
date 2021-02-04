@@ -518,6 +518,13 @@ input:required {
     transition-duration: 500ms;
     overflow: hidden;
 }
+.confer-btn.disabled{
+
+}
+.confer-btn.disabled::before{
+    background-color: #BEC2C6;
+    background-image: none;
+}
 .confer-btn i {
     margin-left: 5px;
 }
@@ -3028,12 +3035,26 @@ input:required {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
+.single-ticket-pricing-table.disabled{
+
+}
+
+.single-ticket-pricing-table.disabled .ticket-plan{
+    background-color: #BEC2C6;
+}
 @media only screen and (max-width: 767px) {
     .single-ticket-pricing-table.active {
         -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
         transform: scale(1.05);
     }
+}
+.single-ticket-pricing-table .ticket-obs{
+    color: #BEC2C6;
+    font-weight: 300;
+    font-size: 12pt;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 .single-ticket-pricing-table .ticket-plan {
     background-color: #961B81;
@@ -3068,6 +3089,14 @@ input:required {
     font-weight: 600;
     position: relative;
     top: -20px;
+}
+.single-ticket-pricing-table .ticket-price-parcela {
+    font-size: 14px;
+    color: #8E8A8E;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 .single-ticket-pricing-table .ticket-pricing-table-details p {
     color: #5d5e8d;

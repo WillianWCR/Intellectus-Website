@@ -107,11 +107,13 @@
     $('a[href="#"]').on("click", function ($) {
         $.preventDefault();
     });
+    /*
     var pricingTable = $(".single-ticket-pricing-table");
     pricingTable.on("mouseenter", function () {
         pricingTable.removeClass("active");
         $(this).addClass("active");
     });
+    */
     $(".gotoIngressos").on("click", function () {
         $("html, body").animate({ scrollTop: $("#ingressos").offset().top - 75 }, 800);
     });
