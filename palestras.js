@@ -20,6 +20,12 @@ var palestras = [
         time: "10:15 - 11:15",
         day: "1",
         speakers: [2],
+        about: `1º Mostraremos os dentes da YAMAHACHI SOLUUT, FX TRI e NEW ACE, suas formas e maneiras de recortes cervicais de acordo com a morfologia dental.
+
+2º Como identificar o formato de dente ?
+Tipo de dentes e quais são suas indicações ?
+Quebrar algumas lendas que dizem sobre essa linha de dentes.
+        `
     },
     {
         id: 3,
@@ -28,6 +34,7 @@ var palestras = [
         day: "1",
         speakers: [3],
         about: `Abordar as duas especialidades odontológicas na visão do laboratório e da clínica, esclarecendo algumas dúvidas.
+
 - Ortodontia/Ortopedia: o que o Técnico precisa saber?
 - Quando o tratamento pode começar, devo esperar?
 - Quando é prevenção e quando é correção?
@@ -46,6 +53,11 @@ var palestras = [
         time: "13:45 - 14:45",
         day: "1",
         speakers: [4],
+        about: `Com o avanço das ferramentas tecnológicas, hoje é possível extinguir possíveis falhas no planejamento de um novo sorriso. Mas você sabe quais são as ferramentas necessárias para um desenvolvimento seguro e assertivo?
+
+1. A Fotografia odontológica ainda é um tabu para muitos profissionais, vamos abordar detalhadamente qual é o melhor protocolo fotográfico para um bom planejamento digital.
+2. Depois de uma boa foto, é o rosto do nosso paciente que nos contará o segredo do sucesso para um novo sorriso equilibrado, estética e função.
+        `
     },
     {
         id: 6,
@@ -53,13 +65,23 @@ var palestras = [
         time: "15:00 - 16:00",
         day: "1",
         speakers: [5],
+        about: `A palestra tem com objetivo explanar de forma lúdica os principais fatores que contribuem para um odontologia digital de alta performance e produtividade.
+
+A odontologia digital não é nada sem que o conhecimento técnico seja aplicado. De que adianta um investimento em equipamentos se não investir em conhecimento técnico primeiro.
+        `
     },
     {
         id: 7,
         name: "Fotografia clínica - celulares x câmeras em 2021",
         time: "16:15 - 17:15",
         day: "1",
-        speakers: [6]
+        speakers: [6],
+        about: `Fotografia com celulares é uma realidade muito presente no nosso cotidiano clínico seja com publicações em redes sociais ou documentação de casos clínicos. Porém, vc sabe fotografar de forma correta com celular? Será que ainda hoje uma camera é melhor que um celular?
+
+- Qual celular comprar em 2021?
+- Como conseguir boas fotos?
+- Qual equipamento ideal para se atingir a excelência?
+        `
     },
     {
         id: 8,
@@ -209,7 +231,13 @@ Falaremos durante a demonstração ao vivo sobre equipamentos de foto polimeriza
         name: "Gestão Inovadora para Laboratórios de Prótese",
         time: "16:15 - 17:15",
         day: "3",
-        speakers: [20, 21]
+        speakers: [20, 21],
+        about: `Todo Laboratório é uma empresa e toda empresa precisa de gestão, mas nem todos entendem disso e acabam não dando foco, por isso a K2go traz essa aula de Gestão Inovadora para Laboratórios de Prótese, uma aula interativa ensinando quais são os dados mais importantes e como saber esses dados de forma prática e aplicada à realidade do público.
+
+1. Gestão simplificada do Laboratório
+2. Potência não é nada sem controle
+3. Mais tempo para sermos humanos
+        `
     },
     {
         id: 24,
