@@ -174,4 +174,13 @@ var professores = [
         photo: "./img/professores/500x/500x_Hilton-Riquieri.png",
         thumbnail: "./img/professores/100x/100x_Hilton-Riquieri.jpg"
     },
+
+    {
+        id: 23,
+        name: "Erika Leite",
+        career: "Técnica em Prótese Dentária",
+        photo: "./img/professores/500x/500x_Erika-Leite.png",
+        thumbnail: "./img/professores/100x/100x_Erika-Leite.jpg"
+    },
+
 ]

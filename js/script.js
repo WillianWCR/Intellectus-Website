@@ -82,12 +82,24 @@ const CronogramaItem = (props) => {
                     {getSpeakersName()}
                 </div>
             </div>
-            <div className="schedule-time-place">
-                <p><i className="zmdi zmdi-time"></i> {props.data.time}</p>
-                <p><i className="zmdi zmdi-hourglass-alt"></i> 1 hora</p>
-            </div>
-            <a href={"#palestraModal"+props.data.id} rel="modal:open" className="btn confer-btn">Ver mais <i className="zmdi zmdi-long-arrow-right"></i></a>
-            <PalestraModal data={props.data} />
+            {props.data.speakers ?
+                <div className="schedule-time-place">
+                    <p><i className="zmdi zmdi-time"></i> {props.data.time}</p>
+                    <p><i className="zmdi zmdi-hourglass-alt"></i> 1 hora</p>
+                </div>
+                :
+                ""
+            }
+            {props.data.speakers ?
+                <a href={"#palestraModal"+props.data.id} rel="modal:open" className="btn confer-btn">Ver mais <i className="zmdi zmdi-long-arrow-right"></i></a>
+                :
+                ""
+            }
+            {props.data.speakers ?
+                <PalestraModal data={props.data} />
+            :
+                ""
+            }
         </div>
     )
 }
@@ -119,7 +131,7 @@ const PalestraModal = (props) => {
             };
         }else{
             return {
-                __html: "<p>Nenhum conteúdo.</p>"
+                __html: "<p>Sem informações.</p>"
             };
         }
     }

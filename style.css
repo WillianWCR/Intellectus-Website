@@ -1170,6 +1170,10 @@ input:required {
 }
 .main-footer-area .single-footer-widget .footer-contact-info p {
     margin-bottom: 13px;
+    color: #9293bc;
+}
+.main-footer-area .single-footer-widget .footer-contact-info a {
+    color: #9293bc;
 }
 .main-footer-area .single-footer-widget .footer-contact-info p:last-child {
     margin-bottom: 0;
