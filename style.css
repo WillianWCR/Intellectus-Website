@@ -3172,7 +3172,8 @@ input:required {
     color: #9293bc;
     margin-bottom: 5px;
 }
-.contact-our-area .contact-information .single-contact-info h6 {
+.contact-our-area .contact-information .single-contact-info h6,
+.contact-our-area .contact-information .single-contact-info a {
     font-size: 18px;
     color: #fff;
     margin-bottom: 0;
