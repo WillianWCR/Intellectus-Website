@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S0G244BQXY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-S0G244BQXY');
+  </script>
   <meta charset="UTF-8">
   <meta name="description" content="">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,10 +65,10 @@
 
             <div class="classynav">
               <ul id="nav">
-                <li class="active"><a href="index.html">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Palestrantes</a></li>
-                <li><a href="#">Contato</a></li>
+                <li class="active"><a href="./">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#contato">Contato</a></li>
               </ul>
 
               <a href="#" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5 gotoIngressos">Compre seu Ingresso <i class="zmdi zmdi-long-arrow-right"></i></a>
@@ -117,7 +126,7 @@
     <div class="icon-scroll" id="scrollDown"></div>
   </section>
 
-  <section class="about-us-countdown-area section-padding-100-0" id="about">
+  <section class="about-us-countdown-area section-padding-100-0" id="sobre">
     <div class="container">
       <div class="row align-items-center">
 
@@ -185,8 +194,7 @@ Essa será uma oportunidade única da você se manter atualizado sem sair do seu
     </div>
   </section>
 
-  <section class="our-speaker-area bg-img bg-gradient-overlay section-padding-100-60"
-    style="background-image: url(img/bg-img/3.jpg);">
+  <section class="our-speaker-area bg-img bg-gradient-overlay section-padding-100-60" style="background-image: url(img/bg-img/3.jpg);" id="palestrantes">
     <div class="container">
       <div class="row">
 
@@ -245,7 +253,7 @@ Essa será uma oportunidade única da você se manter atualizado sem sair do seu
 
             <div class="col-12">
               <div class="more-schedule-btn text-center mt-50 wow fadeInUp" data-wow-delay="300ms">
-                <a href="#" class="btn confer-gb-btn"><i class="zmdi zmdi-collection-pdf" style="margin-right: 10px;"></i>Baixe o cronograma (Pdf)</a>
+                <a href="https://drive.google.com/uc?export=download&id=1_6NGATaR7HNZE7Hjk9aW8ZxlvFccBWTm" class="btn confer-gb-btn" download="Programação Intellectus 2021"><i class="zmdi zmdi-collection-pdf" style="margin-right: 10px;"></i>Baixe o cronograma (Pdf)</a>
               </div>
             </div>
 
@@ -322,7 +330,7 @@ Essa será uma oportunidade única da você se manter atualizado sem sair do seu
   </section>
 
 
-  <section class="our-sponsor-client-area section-padding-100">
+  <section class="our-sponsor-client-area section-padding-100" id="parceiros">
     <div class="container">
       <div class="row">
 
@@ -428,7 +436,7 @@ Essa será uma oportunidade única da você se manter atualizado sem sair do seu
     </div>
   </section>
 
-  <section class="contact-our-area section-padding-100-0">
+  <section class="contact-our-area section-padding-100-0" id="contato">
     <div class="container">
       <div class="row">
 
@@ -548,10 +556,10 @@ Essa será uma oportunidade única da você se manter atualizado sem sair do seu
               <h5 class="widget-title">Links úteis</h5>
 
               <ul class="footer-nav">
-                <li><a href="#">Comprar Ingressos</a></li>
-                <li><a href="#">Sobre o evento</a></li>
-                <li><a href="#">Palestrantes</a></li>
-                <li><a href="#">Parceiros</a></li>
+                <li><a href="#ingressos">Comprar Ingressos</a></li>
+                <li><a href="#sobre">Sobre o evento</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#parceiros">Parceiros</a></li>
               </ul>
             </div>
           </div>
@@ -575,8 +583,7 @@ Essa será uma oportunidade única da você se manter atualizado sem sair do seu
           <div class="col-12 col-md-6">
             <div class="copywrite-text">
               <p>
-                Todos os direitos reservados &copy;<script data-cfasync="false"
-                  src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                Todos os direitos reservados &copy;
                 <script>
                   document.write(new Date().getFullYear());
                 </script>. Evento Intellectus

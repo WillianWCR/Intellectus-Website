@@ -131,7 +131,7 @@ const PalestraModal = (props) => {
             };
         }else{
             return {
-                __html: "<p>Sem informações.</p>"
+                __html: "Sem informações."
             };
         }
     }
@@ -144,7 +144,7 @@ const PalestraModal = (props) => {
                     speaker = getProfessorById(speaker);
                     speakersName.push(speaker.name);
                 });
-                return <p>por <span>{speakersName.join(' e ')}</span></p>;
+                return <span>{speakersName.join(' e ')}</span>;
             }
             return props.data.speakers.map(speaker => {
                     speaker = getProfessorById(speaker);
@@ -158,7 +158,7 @@ const PalestraModal = (props) => {
             <p className="title">{props.data.name}</p>
             <p className="speaker">por {getSpeakersName()}</p>
             <hr/>
-            <p className="about" dangerouslySetInnerHTML={getMarkdownText()}></p>
+            <div className="about" dangerouslySetInnerHTML={getMarkdownText()}></div>
         </div>
     );
 }
