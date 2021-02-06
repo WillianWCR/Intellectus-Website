@@ -98,7 +98,12 @@ A odontologia digital não é nada sem que o conhecimento técnico seja aplicado
         name: "Previsibilidade na confecção de protocolo cerâmico",
         time: "9:00 - 10:00",
         day: "2",
-        speakers: [8]
+        speakers: [8],
+        about: `Será abordado na palestre o planejamento e execução de protocolo cerâmico sobre implantes para se obter resultados previsíveis.
+
+1. Para o sucesso de protocolo cerâmico, seja previsível.
+2. O enceramento de diagnóstico é o passo mais importante no processo de confecção de protocolos cerâmico.
+        `
     },
     {
         id: 10,

@@ -13,6 +13,20 @@
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="css/intellectus.css">
+  <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+  <!-- AddEvent Settings -->
+  <script type="text/javascript">
+    window.addeventasync = function(){
+      addeventatc.settings({
+          appleical  : {show:true, text:"Apple Calendar"},
+          google     : {show:true, text:"Google"},
+          office365  : {show:true, text:"Office 365"},
+          outlook    : {show:false, text:"Outlook"},
+          outlookcom : {show:true, text:"Outlook.com"},
+          yahoo      : {show:true, text:"Yahoo"}
+      });
+    };
+  </script>
 </head>
 
 <body>
@@ -66,16 +80,13 @@
           <div class="row h-100 align-items-center">
 
             <div class="col-12">
-              <div class="welcome-text-two text-center">
-                <h5 data-animation="fadeInUp" data-delay="100ms">The event consistently</h5>
-                <h2 data-animation="fadeInUp" data-delay="300ms">OSHA Compliance</h2>
+              <div class="welcome-text-two text-center hero-banner">
+                <h3 class="edicao-evento" data-animation="fadeInUp" data-delay="100ms">5º Encontro de Prótese Odontológica</h3>
+                <img class="logo-banner" src="./img/core-img/Logotipo-Intellectus-White.svg" data-animation="fadeInUp" data-delay="200ms"/>
+                <h5 class="digital-edition" data-animation="fadeInUp" data-delay="300ms">DIGITAL EDITION</h5>
+                <h3 class="data-evento" data-animation="fadeInUp" data-delay="400ms">13, 14 e 15 de Maio/2021</h3>
 
-                <div class="event-meta" data-animation="fadeInUp" data-delay="500ms">
-                  <a class="event-date" href="#"><i class="zmdi zmdi-account"></i> January 14, 2019</a>
-                  <a class="event-author" href="#"><i class="zmdi zmdi-alarm-check"></i> Laura Green</a>
-                </div>
-                <div class="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
-                  <a href="#" class="btn confer-btn m-2">View more <i class="zmdi zmdi-long-arrow-right"></i></a>
+                <div class="hero-btn-group banner-cta" data-animation="fadeInUp" data-delay="700ms">
                   <a href="#" class="btn confer-btn m-2 gotoIngressos">Comprar ingresso <i class="zmdi zmdi-long-arrow-right"></i></a>
                 </div>
               </div>
@@ -138,14 +149,35 @@
         <div class="row align-items-center">
           <div class="col-12 col-md-3">
 
-            <div class="countdown-content-text mb-100 wow fadeInUp" data-wow-delay="300ms">
+            <div class="countdown-content-text wow fadeInUp" data-wow-delay="300ms">
               <h6>Reserve sua agenda!</h6>
               <h4>5º Encontro Intellectus está chegando!</h4>
             </div>
           </div>
           <div class="col-12 col-md-9">
-            <div class="countdown-timer mb-100 wow fadeInUp" data-wow-delay="300ms">
+            <div class="countdown-timer wow fadeInUp" data-wow-delay="300ms">
               <div id="clock"></div>
+            </div>
+          </div>
+          <div class="col-12 text-center mt-50 mb-100 wow fadeInUp" data-wow-delay="400ms">
+            <!-- Button code -->
+            <div title="Adicione o evento na sua agenda!" class="addeventatc">
+              Adicione o evento na sua agenda!
+              <span class="start">13/05/2021 09:00 AM</span>
+              <span class="end">13/05/2021 6:30 PM</span>
+              <span class="date_format">DD/MM/YYYY</span>
+              <span class="recurring">FREQ=DAILY;COUNT=3</span>
+              <span class="timezone">America/Sao_Paulo</span>
+              <span class="title">Evento Intellectus - 5ª Edição</span>
+              <span class="description">Este ano o encontro Intellectus será Online, e ocorrerá nos dias 13, 14 e 15 de Maio.
+
+O evento reunirá 23 palestrantes em três dias de evento, e nele estarão alguns do maiores nomes da Prótese Dentária do Brasil e do Mundo.
+                
+Aqui você ficará por dentro de todas as novidades e também terá a chance de estudar quais são as melhores práticas que grandes nomes como Paulo Kano, Carlos Maranghello, Hilton Riquieri e David Morita estão utilizando.
+                
+Essa será uma oportunidade única da você se manter atualizado sem sair do seu laboratório.</span>
+              <span class="organizer">Stella Godoy</span>
+              <span class="organizer_email">stellabgodoy@gmail.com</span>
             </div>
           </div>
         </div>
@@ -513,13 +545,13 @@
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
 
-              <h5 class="widget-title">Workshops</h5>
+              <h5 class="widget-title">Links úteis</h5>
 
               <ul class="footer-nav">
-                <li><a href="#">OSHA Compliance</a></li>
-                <li><a href="#">Microsoft Excel Basics</a></li>
-                <li><a href="#">Forum Speaker Series</a></li>
-                <li><a href="#">Tedx Moscow Conference</a></li>
+                <li><a href="#">Comprar Ingressos</a></li>
+                <li><a href="#">Sobre o evento</a></li>
+                <li><a href="#">Palestrantes</a></li>
+                <li><a href="#">Parceiros</a></li>
               </ul>
             </div>
           </div>
@@ -527,30 +559,9 @@
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
 
-              <h5 class="widget-title">Gallery</h5>
+              <h5 class="widget-title">Uma produção</h5>
 
-              <div class="footer-gallery">
-                <div class="row">
-                  <div class="col-4">
-                    <a href="img/bg-img/21.jpg" class="single-gallery-item"><img src="img/bg-img/21.jpg" alt=""></a>
-                  </div>
-                  <div class="col-4">
-                    <a href="img/bg-img/22.jpg" class="single-gallery-item"><img src="img/bg-img/22.jpg" alt=""></a>
-                  </div>
-                  <div class="col-4">
-                    <a href="img/bg-img/23.jpg" class="single-gallery-item"><img src="img/bg-img/23.jpg" alt=""></a>
-                  </div>
-                  <div class="col-4">
-                    <a href="img/bg-img/24.jpg" class="single-gallery-item"><img src="img/bg-img/24.jpg" alt=""></a>
-                  </div>
-                  <div class="col-4">
-                    <a href="img/bg-img/25.jpg" class="single-gallery-item"><img src="img/bg-img/25.jpg" alt=""></a>
-                  </div>
-                  <div class="col-4">
-                    <a href="img/bg-img/26.jpg" class="single-gallery-item"><img src="img/bg-img/26.jpg" alt=""></a>
-                  </div>
-                </div>
-              </div>
+              <img class="footer-logo-beeboost" src="./img/core-img/Logo-BeeBoost-Negativo.png"/>
             </div>
           </div>
         </div>
