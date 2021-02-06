@@ -25,6 +25,16 @@ const SpeakersGrid = () => {
 }
 
 const Speakers = (props) => {
+    const getProfessorVideo = () => {
+        if(props.data.video_invite){
+            return(
+                <div className="speaker-icon">
+                    <a href={props.data.video_invite} data-lity><i class="zmdi zmdi-youtube-play"></i></a>
+                </div>
+            );
+        }
+    }
+
     return(
         <div className="col-12 col-md-6 col-lg-4">
           <div className="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
@@ -32,7 +42,9 @@ const Speakers = (props) => {
             <div className="speaker-single-thumb">
               <img src={props.data.photo} alt={'Foto '+props.data.name}/>
             </div>
-
+            {
+                getProfessorVideo()
+            }
             <div className="speaker-info">
               <h5>{props.data.name}</h5>
               <p>{props.data.career}</p>

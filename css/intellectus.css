@@ -102,3 +102,20 @@
 .footer-logo-beeboost{
     max-width: 100px !important;
 }
+
+.single-speaker-area .speaker-icon{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    z-index: 11;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.single-speaker-area .speaker-icon a{
+    color: #FFFFFF;
+}
+
+.single-speaker-area .speaker-icon a:hover{
+    color: #CB82B6;
+}

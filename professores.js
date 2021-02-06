@@ -4,7 +4,8 @@ var professores = [
         name: "Darlos Soares",
         career: "Técnico em Prótese Dentária",
         photo: "./img/professores/500x/500x_Darlos-Soares.png",
-        thumbnail: "./img/professores/100x/100x_Darlos-Soares.jpg"
+        thumbnail: "./img/professores/100x/100x_Darlos-Soares.jpg",
+        video_invite: "https://www.youtube.com/watch?v=lx4ODLiSZ18"
     },
 
     {
@@ -52,7 +53,8 @@ var professores = [
         name: "Rodrigo Monsano",
         career: "Técnico em Prótese Dentária",
         photo: "./img/professores/500x/500x_Rodrigo-Monsano.png",
-        thumbnail: "./img/professores/100x/100x_Rodrigo-Monsano.jpg"
+        thumbnail: "./img/professores/100x/100x_Rodrigo-Monsano.jpg",
+        video_invite: "https://www.youtube.com/watch?v=3QXaMfyS1LI"
     },
 
     {
@@ -100,7 +102,8 @@ var professores = [
         name: "Carla de Castro",
         career: "Cirurgiã Dentista",
         photo: "./img/professores/500x/500x_Carla-de-Castro.png",
-        thumbnail: "./img/professores/100x/100x_Carla-de-Castro.jpg"
+        thumbnail: "./img/professores/100x/100x_Carla-de-Castro.jpg",
+        video_invite: "https://www.youtube.com/watch?v=jM-QKr_BTsU"
     },
 
     {
@@ -116,7 +119,8 @@ var professores = [
         name: "Carlos Maranghello",
         career: "Técnico em Prótese Dentária",
         photo: "./img/professores/500x/500x_Carlos-Maranguello.png",
-        thumbnail: "./img/professores/100x/100x_Carlos-Maranguello.jpg"
+        thumbnail: "./img/professores/100x/100x_Carlos-Maranguello.jpg",
+        video_invite: "https://www.youtube.com/watch?v=2b0Ftx4mNjY"
     },
 
     {
@@ -156,7 +160,8 @@ var professores = [
         name: "Thiago Kempen",
         career: "Empresário e Consultor Neodent",
         photo: "./img/professores/500x/500x_Thiago-Kempen.png",
-        thumbnail: "./img/professores/100x/100x_Thiago-Kempen.jpg"
+        thumbnail: "./img/professores/100x/100x_Thiago-Kempen.jpg",
+        video_invite: "https://www.youtube.com/watch?v=jz0Hj0AYjwU"
     },
 
     {
@@ -164,7 +169,8 @@ var professores = [
         name: "Marcos Kogut",
         career: "Empresário",
         photo: "./img/professores/500x/500x_Marcos-Kogut.png",
-        thumbnail: "./img/professores/100x/100x_Marcos-Kogut.jpg"
+        thumbnail: "./img/professores/100x/100x_Marcos-Kogut.jpg",
+        video_invite: "https://www.youtube.com/watch?v=FOHd7lKpKrQ"
     },
 
     {
@@ -172,7 +178,8 @@ var professores = [
         name: "Hilton Riquieri",
         career: "Cirurgião Dentista",
         photo: "./img/professores/500x/500x_Hilton-Riquieri.png",
-        thumbnail: "./img/professores/100x/100x_Hilton-Riquieri.jpg"
+        thumbnail: "./img/professores/100x/100x_Hilton-Riquieri.jpg",
+        video_invite: "https://www.youtube.com/watch?v=WXQ3JAxs2e4"
     },
 
     {
