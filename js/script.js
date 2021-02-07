@@ -206,7 +206,7 @@ const VideosInvites = () => {
 
 const VideoInvite = (props) => {
     return(
-        <div className="invite-video">
+        <div className="invite-video col-lg-6 col-12">
             <iframe width="100%" height="350px" src={"https://www.youtube.com/embed/" + props.data.id} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
     );
