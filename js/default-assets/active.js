@@ -117,4 +117,17 @@
     $(".gotoIngressos").on("click", function () {
         $("html, body").animate({ scrollTop: $("#ingressos").offset().top - 75 }, 800);
     });
+    window.addEventListener("load", function(event) {
+        $("#invitesCarousel").owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            smartSpeed: 1000,
+            margin: 40,
+            autoplayTimeout: 7000,
+            nav: true,
+            navText: ['<i class="zmdi zmdi-chevron-left"></i>', '<i class="zmdi zmdi-chevron-right"></i>'],
+        });
+        console.log('Carousel loaded');
+    });
 })(jQuery);

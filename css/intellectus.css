@@ -119,3 +119,45 @@
 .single-speaker-area .speaker-icon a:hover{
     color: #CB82B6;
 }
+
+.invites-videos-area{
+    padding: 50px 0;
+}
+
+.invites-carousel .owl-next{
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    border-radius: 50%;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 50%;
+    margin-top: -33px;
+    z-index: 10;
+    text-align: center;
+    line-height: 44px;
+    border: 2px solid #9293bc;
+    color: #9293bc;
+    font-size: 34px;
+    right: -50px;
+}
+
+.invites-carousel .owl-prev{
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    border-radius: 50%;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 50%;
+    margin-top: -33px;
+    z-index: 10;
+    text-align: center;
+    line-height: 44px;
+    border: 2px solid #9293bc;
+    color: #9293bc;
+    font-size: 34px;
+    left: -50px;
+}

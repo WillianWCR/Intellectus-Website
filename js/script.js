@@ -29,7 +29,7 @@ const Speakers = (props) => {
         if(props.data.video_invite){
             return(
                 <div className="speaker-icon">
-                    <a href={props.data.video_invite} data-lity><i class="zmdi zmdi-youtube-play"></i></a>
+                    <a href={props.data.video_invite} data-lity><i className="zmdi zmdi-youtube-play"></i></a>
                 </div>
             );
         }
@@ -193,6 +193,25 @@ const ParceirosGrid = (props) => {
     );
 }
 
+const VideosInvites = () => {
+    function componentDidMount(){
+        console.log("Componente renderizado");
+    }
+    return(
+        videos_invites.map(video_invite => (
+            <VideoInvite data={video_invite} key={video_invite.id}/>
+        ))
+    );
+}
+
+const VideoInvite = (props) => {
+    return(
+        <div className="invite-video">
+            <iframe width="100%" height="350px" src={"https://www.youtube.com/embed/" + props.data.id} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </div>
+    );
+}
+
 ReactDOM.render(
     <SpeakersGrid />,
     document.getElementById('gridPalestras')
@@ -221,4 +240,9 @@ ReactDOM.render(
 ReactDOM.render(
     <span>Conheça nosso time de {professores.length} palestrantes!</span>,
     document.getElementById('numeroPalestrantes')
+);
+
+ReactDOM.render(
+    <VideosInvites/>,
+    document.getElementById('invitesCarousel')
 );
