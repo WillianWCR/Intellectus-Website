@@ -57,6 +57,25 @@
       });
     };
   </script>
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+   fbq('init', '229526495552240'); 
+  fbq('track', 'PageView');
+</script>
+<noscript>
+   <img height="1" width="1" 
+  src="https://www.facebook.com/tr?id=229526495552240&ev=PageView
+  &noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -307,12 +326,10 @@ Essa será uma oportunidade única da você se manter atualizado sem sair do seu
         <div class="col-12 col-lg-4">
           <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp disabled" data-wow-delay="300ms">
             <h6 class="ticket-plan">1º Lote</h6>
-            <h2 class="ticket-price"><span>R$</span>48,77</h2>
-            <h3 class="ticket-price-parcela">ou 5x R$ 10,49</h3>
-            <a href="#" class="btn confer-btn w-100 disabled">Esgotado</a>
+            <h2 class="ticket-price"><span class="no-price">Esgotado</span></h2>
+            <a href="#" class="btn confer-btn w-100 disabled">Comprar ingresso</a>
             <hr class="mb-30 mt-30"/>
             <img class="w-100" src="./img/core-img/barcode.svg"/>
-            <p class="ticket-obs">*apenas 200 vagas</p>
           </div>
         </div>
 
@@ -324,31 +341,17 @@ Essa será uma oportunidade única da você se manter atualizado sem sair do seu
             <a href="#" class="btn confer-btn w-100">Comprar ingresso <i class="zmdi zmdi-long-arrow-right"></i></a>
             <hr class="mb-30 mt-30"/>
             <img class="w-100" src="./img/core-img/barcode.svg"/>
-            <p class="ticket-obs">*apenas 800 vagas</p>
+            <p class="ticket-obs">*apenas 800 vagas<br/>**Ingresso válido para os 3 dias de curso</p>
           </div>
         </div>
 
         <div class="col-12 col-lg-4">
-          <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+          <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp disabled" data-wow-delay="300ms">
             <h6 class="ticket-plan">3º Lote</h6>
-            <h2 class="ticket-price"><span>R$</span>76,67</h2>
-            <h3 class="ticket-price-parcela">ou 8x R$ 10,69</h3>
-            <a href="#" class="btn confer-btn w-100">Comprar ingresso <i class="zmdi zmdi-long-arrow-right"></i></a>
+            <h2 class="ticket-price"><span class="soon">Em breve</span></h2>
+            <a href="#" class="btn confer-btn w-100 disabled">Comprar ingresso <i class="zmdi zmdi-long-arrow-right"></i></a>
             <hr class="mb-30 mt-30"/>
             <img class="w-100" src="./img/core-img/barcode.svg"/>
-            <p class="ticket-obs">*apenas 1000 vagas</p>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-4">
-          <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-            <h6 class="ticket-plan">4º Lote</h6>
-            <h2 class="ticket-price"><span>R$</span>86,48</h2>
-            <h3 class="ticket-price-parcela">ou 9x R$ 10,84</h3>
-            <a href="#" class="btn confer-btn w-100">Comprar ingresso <i class="zmdi zmdi-long-arrow-right"></i></a>
-            <hr class="mb-30 mt-30"/>
-            <img class="w-100" src="./img/core-img/barcode.svg"/>
-            <p class="ticket-obs">*apenas 1000 vagas</p>
           </div>
         </div>
 
@@ -386,86 +389,6 @@ Essa será uma oportunidade única da você se manter atualizado sem sair do seu
       </div>
     </div>
   </section>
-
-  <section class="contact-our-area section-padding-100-0" id="contato">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-12">
-          <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
-            <p>Ficou com alguma dúvida?</p>
-            <h4>Entre em contato</h4>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-between">
-        <div class="col-12 col-sm-3">
-          <div class="contact-information mb-100">
-
-            <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
-              <p>Telefone:</p>
-              <h6><a href="tel:13997783938">+55 13 99778-3938</a></h6>
-            </div>
-
-            <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
-              <p>Email:</p>
-              <h6><a href="mailto:stellabgodoy@gmail.com">stellabgodoy@gmail.com</a></h6>
-            </div>
-
-          </div>
-        </div>
-        <div class="col-12 col-sm-8">
-
-          <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">
-            <div class="contact_form">
-              <form action="mail.php" method="post" id="main_contact_form">
-                <div class="contact_input_area">
-                  <div id="success_fail_info"></div>
-                  <div class="row">
-
-                    <div class="col-12 col-lg-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control mb-30" name="firstname" placeholder="Primeiro Nome">
-                      </div>
-                    </div>
-
-                    <div class="col-12 col-lg-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control mb-30" name="lastname" placeholder="Sobrenome">
-                      </div>
-                    </div>
-
-                    <div class="col-12 col-lg-6">
-                      <div class="form-group">
-                        <input type="email" class="form-control mb-30" name="email" placeholder="E-mail">
-                      </div>
-                    </div>
-
-                    <div class="col-12 col-lg-6">
-                      <div class="form-group">
-                        <input type="tel" class="form-control mb-30" name="phone" placeholder="Seu telefone">
-                      </div>
-                    </div>
-
-                    <div class="col-12">
-                      <div class="form-group">
-                        <textarea name="message" class="form-control mb-30" cols="30" rows="6" placeholder="Sua mensagem *"></textarea>
-                      </div>
-                    </div>
-
-                    <div class="col-12">
-                      <button type="submit" class="btn confer-btn">Enviar mensagem <i class="zmdi zmdi-long-arrow-right"></i></button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
 
   <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
 

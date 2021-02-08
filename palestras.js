@@ -85,7 +85,7 @@ A odontologia digital não é nada sem que o conhecimento técnico seja aplicado
     },
     {
         id: 8,
-        name: "Dicas e soluções para laminados cerâmicos em disilicato, maquiadores e híbridos",
+        name: "Dicas e soluções para laminados cerâmicos em disilicato, maquiados e híbridos",
         time: "17:30 - 18:30",
         day: "1",
         speakers: [7]
@@ -127,7 +127,7 @@ A odontologia digital não é nada sem que o conhecimento técnico seja aplicado
     },
     {
         id: 13,
-        name: "Planejamento Reabilitador Digital e Humazinado",
+        name: "Planejamento Reabilitador Digital e Humanizado",
         time: "13:45 - 14:45",
         day: "2",
         speakers: [12],

@@ -61,4 +61,25 @@ var parceiros = [
         site: "http://www.unifaes.com.br/",
         logo: "./img/patrocinadores/Patrocinadores_UNIFAES.png"
     },
+
+    {
+        id: 10,
+        name: "Marketech",
+        site: "https://www.makertechlabs.com.br/",
+        logo: "./img/patrocinadores/Patrocinadores_Marketech.png"
+    },
+
+    {
+        id: 11,
+        name: "Maquira",
+        site: "https://maquira.com.br/",
+        logo: "./img/patrocinadores/Patrocinadores_Maquira.png"
+    },
+
+    {
+        id: 12,
+        name: "Renfert",
+        site: "https://www.renfert.com/",
+        logo: "./img/patrocinadores/Patrocinadores_Renfert.png"
+    },
 ]

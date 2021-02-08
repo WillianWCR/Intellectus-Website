@@ -204,3 +204,16 @@
     fill: #04EB84;
     margin-bottom: 25px;
 }
+
+.single-ticket-pricing-table .ticket-price .no-price{
+    color: #BEC2C6;
+    text-decoration: line-through;
+    text-decoration-color: #FF5B5B;
+    text-decoration-thickness: 5px;
+    font-size: 48px;
+}
+
+.single-ticket-pricing-table .ticket-price .soon{
+    color: #BEC2C6;
+    font-size: 48px;
+}

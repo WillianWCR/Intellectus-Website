@@ -68,7 +68,7 @@ var professores = [
     {
         id: 9,
         name: "Priscila Rizzi",
-        career: "Cirurgiã Dentista",
+        career: "TPD e CD",
         photo: "./img/professores/500x/500x_Priscila-Rizzi.png",
         thumbnail: "./img/professores/100x/100x_Priscila-Rizzi.jpg"
     },
@@ -84,7 +84,7 @@ var professores = [
     {
         id: 11,
         name: "Thais Nogueira",
-        career: "Cirurgiã Dentista",
+        career: "TPD",
         photo: "./img/professores/500x/500x_Thais-Nogueira.png",
         thumbnail: "./img/professores/100x/100x_Thais-Nogueira.jpg"
     },
@@ -92,7 +92,7 @@ var professores = [
     {
         id: 12,
         name: "Marcos Celestrino",
-        career: "Cirurgião Dentista",
+        career: "TPD",
         photo: "./img/professores/500x/500x_Marcos-Celestiano.png",
         thumbnail: "./img/professores/100x/100x_Marcos-Celestiano.jpg"
     },
@@ -100,7 +100,7 @@ var professores = [
     {
         id: 13,
         name: "Carla de Castro",
-        career: "Cirurgiã Dentista",
+        career: "TPD",
         photo: "./img/professores/500x/500x_Carla-de-Castro.png",
         thumbnail: "./img/professores/100x/100x_Carla-de-Castro.jpg",
         video_invite: "https://www.youtube.com/watch?v=jM-QKr_BTsU"
@@ -134,7 +134,7 @@ var professores = [
     {
         id: 17,
         name: "Ana Lidia Ferreira",
-        career: "Cirurgiã Dentista",
+        career: "TPD e CD",
         photo: "./img/professores/500x/500x_Ana-Lidia-Ferreira.png",
         thumbnail: "./img/professores/100x/100x_Ana-Lidia-Ferreira.jpg"
     },
@@ -158,7 +158,7 @@ var professores = [
     {
         id: 20,
         name: "Thiago Kempen",
-        career: "Empresário e Consultor Neodent",
+        career: "Empresário",
         photo: "./img/professores/500x/500x_Thiago-Kempen.png",
         thumbnail: "./img/professores/100x/100x_Thiago-Kempen.jpg",
         video_invite: "https://www.youtube.com/watch?v=jz0Hj0AYjwU"
