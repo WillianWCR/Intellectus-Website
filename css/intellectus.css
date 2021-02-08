@@ -166,3 +166,10 @@
     font-size: 34px;
     left: -50px;
 }
+
+.product-about{
+    color: #FFFFFF;
+    opacity: .3;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
