@@ -50,7 +50,11 @@ const Speakers = (props) => {
         if(props.data.video_invite){
             return(
                 <div className="speaker-icon">
-                    <a href={props.data.video_invite} data-lity><i className="zmdi zmdi-youtube-play"></i></a>
+                    <a href={props.data.video_invite} onClick={() => { 
+                        gtag('event', 'watch_speaker_video_invite', {
+                            'value': props.data.name
+                        });
+                    }} data-lity><i className="zmdi zmdi-youtube-play"></i></a>
                 </div>
             );
         }
@@ -199,7 +203,7 @@ const PalestraModal = (props) => {
 const Parceiro = (props) => {
     return(
         <div className="single-sponsor wow fadeInUp" data-wow-delay="300ms">
-            <a href={props.data.site}>
+            <a href={props.data.site} target="_blank">
                 <img src={props.data.logo} alt={"Logo "+props.data.name} />
             </a>
         </div>
