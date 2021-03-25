@@ -98,7 +98,7 @@
     }
     if ($.fn.countdown) {
         $("#clock").countdown("2021/05/13", function (event) {
-            $(this).html(event.strftime("<div>%m <span>Months</span></div> <div>%d <span>Days</span></div> <div>%H <span>Hours</span></div> <div>%M <span>Minutes</span></div> <div>%S <span>Seconds</span></div>"));
+            $(this).html(`<div>${event.offset.months} <span>Mes</span></div> <div>${event.offset.daysToMonth} <span>Dias</span></div> <div>${event.offset.hours} <span>Horas</span></div> <div>${event.offset.minutes} <span>Minutos</span></div> <div>${event.offset.seconds} <span>Segundos</span></div>`);
         });
     }
     if ($.fn.scrollUp) {
