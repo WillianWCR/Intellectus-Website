@@ -1,5 +1,22 @@
 var professores = [
     {
+        id: 14,
+        name: "Paulo Kano",
+        career: "Cirurgião Dentista",
+        photo: "./img/professores/500x/500x_Paulo-Kano.png",
+        thumbnail: "./img/professores/100x/100x_Paulo-Kano.jpg"
+    },
+
+    {
+        id: 22,
+        name: "Hilton Riquieri",
+        career: "Cirurgião Dentista",
+        photo: "./img/professores/500x/500x_Hilton-Riquieri.png",
+        thumbnail: "./img/professores/100x/100x_Hilton-Riquieri.jpg",
+        video_invite: "https://www.youtube.com/watch?v=WXQ3JAxs2e4"
+    },
+
+    {
         id: 1,
         name: "Darlos Soares",
         career: "Técnico em Prótese Dentária",
@@ -107,14 +124,6 @@ var professores = [
     },
 
     {
-        id: 14,
-        name: "Paulo Kano",
-        career: "Cirurgião Dentista",
-        photo: "./img/professores/500x/500x_Paulo-Kano.png",
-        thumbnail: "./img/professores/100x/100x_Paulo-Kano.jpg"
-    },
-
-    {
         id: 15,
         name: "Carlos Maranghello",
         career: "Técnico em Prótese Dentária",
@@ -171,15 +180,6 @@ var professores = [
         photo: "./img/professores/500x/500x_Marcos-Kogut.png",
         thumbnail: "./img/professores/100x/100x_Marcos-Kogut.jpg",
         video_invite: "https://www.youtube.com/watch?v=FOHd7lKpKrQ"
-    },
-
-    {
-        id: 22,
-        name: "Hilton Riquieri",
-        career: "Cirurgião Dentista",
-        photo: "./img/professores/500x/500x_Hilton-Riquieri.png",
-        thumbnail: "./img/professores/100x/100x_Hilton-Riquieri.jpg",
-        video_invite: "https://www.youtube.com/watch?v=WXQ3JAxs2e4"
     },
 
     {
