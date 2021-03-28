@@ -221,3 +221,13 @@
 .countdownArea{
     margin-bottom: 100px;
 }
+
+@media only screen and (max-width: 991px) {
+    .oldLote{
+        display: none;
+    }
+
+    .newLote{
+        display: none;
+    }
+}
